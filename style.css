@@ -1,0 +1,23 @@
+body{
+    background-color: yellow;
+}
+
+h1{
+    color: red;
+}
+
+canvas{
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    border: 5px dotted black;
+}
+
+@keyframes example{
+    from{box-shadow: 1px 1px 38px grey};
+    to{box-shadow: 1px 1px 38px white};
+}
+
+p{
+    padding: 25px;
+}
